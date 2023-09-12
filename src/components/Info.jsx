@@ -1,4 +1,4 @@
-export default function Info({ getLocation, checkLoading }) {
+export default function Info({ getLocation }) {
   const { ip, location, isp } = getLocation;
 
   const FinishedLoading = () => {
