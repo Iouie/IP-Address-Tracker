@@ -7,8 +7,8 @@ export default {
         primary: ["Rubik"],
       },
       backgroundImage: {
-        desktop: "url('pattern-bg-desktop.png')",
-        mobile: "url('pattern-bg-mobile.png')",
+        desktop: "url('/pattern-bg-desktop.png')",
+        mobile: "url('/pattern-bg-mobile.png')",
       },
     },
   },
