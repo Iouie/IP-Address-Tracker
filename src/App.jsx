@@ -6,7 +6,7 @@ import EntireMap from "./components/EntireMap";
 import axios from "axios";
 
 function App() {
-  const apiKey = import.meta.env.VITE_APP_API_KEY;
+  const apiKey = import.meta.env.VITE_API_KEY;
 
   const [myData, setmyData] = useState({});
   const [errMsg, seterrMsg] = useState("");
