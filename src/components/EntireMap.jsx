@@ -4,9 +4,10 @@ import { Icon } from "leaflet";
 
 export default function EntireMap({ getLocation }) {
   const { location } = getLocation;
+  const iconUrl = "/icon-location.svg";
 
   const customIcon = new Icon({
-    iconUrl: "/icon-location.svg",
+    iconUrl,
     iconSize: [40, 50],
   });
 
