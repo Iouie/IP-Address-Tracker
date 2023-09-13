@@ -30,7 +30,7 @@ function App() {
   console.log(errMsg);
   return (
     <>
-      <main className="font-primary min-h-screen bg-[url('src/assets/pattern-bg-desktop.png')] bg-auto xl:bg-cover">
+      <main className="font-primary min-h-screen md:bg-desktop bg-mobile bg-auto xl:bg-cover">
         <Header />
         <SearchBar getApi={testAPI} />
         <p className="mx-auto text-center z-40 relative my-auto bottom-20 md:text-[2rem] text-red-600">
