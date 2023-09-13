@@ -6,7 +6,7 @@ export default function EntireMap({ getLocation }) {
   const { location } = getLocation;
 
   const customIcon = new Icon({
-    iconUrl: "/src/assets/icon-location.svg",
+    iconUrl: "/icon-location.svg",
     iconSize: [40, 50],
   });
 
