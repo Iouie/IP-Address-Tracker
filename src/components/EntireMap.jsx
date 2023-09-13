@@ -12,7 +12,7 @@ export default function EntireMap({ getLocation }) {
 
   const Loaded = () => {
     if (!location) {
-      return <div>Loading...</div>;
+      return <div className="text-center">Loading...</div>;
     }
     return (
       <MapContainer center={[location.lat, location.lng]} zoom={15}>
